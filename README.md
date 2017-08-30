@@ -28,5 +28,8 @@ We acknowledge support from NSF AGS-1343967.
 We created MCheetah as part of our NSF-sponsored Mahali project [http://mahali.mit.edu](http://mahali.mit.edu)
 
 App examples: 
-- [MahaliRelayApp](https://github.com/MITHaystack/mcheetah/tree/master/MahaliRelayApp)
-- [MagnetometerApp](https://github.com/MITHaystack/mcheetah/tree/master/MagnetometerApp)
+
+| Android App Code |  | 
+| ------------- | ------------- |
+| [MahaliRelayApp](https://github.com/MITHaystack/mcheetah/tree/master/MahaliRelayApp)| <img alt="Screenshot" src="https://github.com/MITHaystack/mcheetah/blob/master/docs/images/screenshot_MahaliRelayApp.png"/> |
+| [MagnetometerApp](https://github.com/MITHaystack/mcheetah/tree/master/MagnetometerApp)| x |
