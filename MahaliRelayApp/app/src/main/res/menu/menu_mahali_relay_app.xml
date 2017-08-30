@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MahaliProject">
+
+    <!-- Launches an activity to display downloaded data -->
+    <item
+        android:id="@+id/action_downloaded_list"
+        android:orderInCategory="1"
+        android:title="@string/action_downloaded_list"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_uploaded_list"
+        android:orderInCategory="2"
+        android:title="@string/action_uploaded_list"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_set_position"
+        android:orderInCategory="3"
+        android:title="@string/action_set_position"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_update_satellite_info"
+        android:orderInCategory="4"
+        android:title="@string/action_update_satellite_info"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_plot_tec"
+        android:orderInCategory="5"
+        android:title="@string/action_plot_tec"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_wifi_heatmap"
+        android:orderInCategory="6"
+        android:title="@string/action_wifi_heatmap"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_file_management"
+        android:orderInCategory="7"
+        android:title="@string/action_file_management"
+        app:showAsAction="never" />
+
+    <!-- Launches the settings activity -->
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="8"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/action_about"
+        android:orderInCategory="9"
+        app:showAsAction="never" />
+
+</menu>

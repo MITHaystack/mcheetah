@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MagnetometerApp</string>
+
+    <string name="checkbox_start_on_boot">Start Data Collection on Boot</string>
+    <string name="button_start_logging">Start Data Logging</string>
+    <string name="button_stop_logging">Stop Data Logging</string>
+    <string name="file_directory">/magnetometer_data/</string> <!-- The beginning and ending / is necessary -->
+</resources>

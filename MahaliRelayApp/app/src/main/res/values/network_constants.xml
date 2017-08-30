@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Username and password for logging into fermi at Haystack -->
+    <string name="owncloud_fermi_username">your_username</string>
+    <string name="owncloud_fermi_password">your_password</string>
+
+    <!-- The root directory of the ownCloud server on fermi at Haystack -->
+    <!-- This is used in the Update Navigation functionality and in the Upload Files functionality -->
+    <string name="owncloud_fermi_directory_root">url_goes_here</string>
+
+    <!-- The subdirectory the navigation files are stored in - used in the Update Navigation functionality -->
+    <string name="owncloud_fermi_directory_navigation">Mahali/nav</string>
+
+    <!-- The subdirectory data files are stored in - used in the Upload Files functionality -->
+    <string name="owncloud_fermi_directory_rinex">Mahali/data/field-sites/</string>
+
+    <!-- The subdirectory satellite bias files are stored in - used in the Update Navigation functionality -->
+    <string name="owncloud_fermi_directory_ionex">Mahali/ionex</string>
+
+    <!-- The username and password for logging into Mahali boxes - used in Mahali.java -->
+    <string name="owncloud_mahali_username">username_here</string>
+    <string name="owncloud_mahali_password">password_here</string>
+
+    <!-- This is the uppercase version of the prefix we are looking for in WiFi access points -->
+    <string name="mahali_ssid_prefix">MAHALI-</string>
+
+    <!-- This is the subdirectory to get to the ini configuration files from the box root directory -->
+    <!-- For editing the box configuration -->
+    <string name="mahali_configuration_directory">/data/config/</string>
+
+    <!-- This is the subdirectory to get to the RINEX data from the box root directory -->
+    <!-- This is used in Mahali.java to download data from the box to the device -->
+    <string name="mahali_rinex_directory">/data/rinex/</string>
+
+    <!-- This is the subdirectory to get to the summary information from the box root directory -->
+    <!-- This is used in ViewStatusActivity.java to view all the box status information -->
+    <string name="mahali_summary_directory">/data/summary/</string>
+
+    <!-- This is the app key for uploading files to Dropbox -->
+    <string name="dropbox_app_key">your_dropbox_app_key</string>
+
+    <!-- This is the app secret for uploading files to Dropbox -->
+    <string name="dropbox_app_secret">your_dropbox_app_secret</string>
+
+    <!-- The access token for Dropbox so we don't have to make the user authenticate using their own account -->
+    <string name="dropbox_access_token">your_dropbox_access_token</string>
+
+    <!-- Strings for local file storage -->
+    <string name="local_log_path">/mahali/log/</string>
+</resources>

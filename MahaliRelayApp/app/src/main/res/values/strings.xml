@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Mahali Relay App</string>
+
+    <!-- Main strings -->
+    <string name="text_status">Status: </string>
+    <string name="button_upload">Upload Data</string>
+    <string name="button_scan">Scan for Mahali Boxes</string>
+    <string name="button_download">Download Data</string>
+
+    <!-- Strings that are used in the options menu -->
+    <string name="action_downloaded_list">Downloaded file list</string>
+    <string name="action_uploaded_list">Uploaded file list</string>
+    <string name="action_set_position">Set GPS Position for TEC Plots</string>
+    <string name="action_update_satellite_info">Update Satellite Info for TEC Plots</string>
+    <string name="action_plot_tec">Plot TEC</string>
+    <string name="action_wifi_heatmap">Generate WiFi Heatmap</string>
+    <string name="action_file_management">File Management</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+
+    <!-- HeatmapActivity strings -->
+    <string name="button_toggle">Start</string>
+
+    <!-- TECPlot strings -->
+    <string name="star_description">Mark important</string>
+    <string name="title_activity_maps">Select Mahali Location</string>
+    <string name="button_select_position">Select Position</string>
+    <string name="text_bias">Bias: 0</string>
+    <string name="plot_data">Plot Data</string>
+
+    <!-- UpdateDownloadActivity strings -->
+    <string name="update_button_download">Update</string>
+
+    <!-- Strings for ViewStatusActivity -->
+    <string name="view_status_statustext">Status: </string>
+
+    <!-- Strings for the PositionDialogFragment -->
+    <string name="dialog_position_latitude_hint">Latitude</string>
+    <string name="dialog_position_longitude_hint">Longitude</string>
+    <string name="dialog_position_elevation_hint">Elevation</string>
+    <string name="dialog_position_title">Set Box Position</string>
+
+    <!-- Strings for the main activity MahaliActivity.java (activity_mahali.xml) -->
+    <string name="connect_to_mahali">1: Connect to\nMahali WiFi</string>
+    <string name="button_download_data">2: Download\nData from\nMahali Box</string>
+    <string name="connect_to_internet">3: Connect to\nWiFi/Internet</string>
+    <string name="button_upload_data">4: Upload local\nData to\nDropbox</string>
+    <string name="button_pause_activities">Pause Activities</string>
+    <string name="button_email_status">Email Status</string>
+    <string name="text_local_storage">Local storage used: </string>
+    <string name="text_upload_stats">Files/MB uploaded: </string>
+    <string name="text_download_stats">Files/MB downloaded: </string>
+    <string name="text_current_file">Current file processed: </string>
+    <string name="text_current_connection">Currently connected: </string>
+    <string name="text_status_overview">Status</string>
+
+    <!-- Strings used in the Settings activity (SettingsActivity.java and activity_settings.xml) -->
+    <string name="settings_dropbox_username">Dropbox Username:</string>
+    <string name="settings_dropbox_password">Dropbox Password:</string>
+    <string name="settings_dropbox_target_directory">Dropbox Target Directory:</string>
+    <string name="settings_owncloud_box_username">Mahali Box Username:</string>
+    <string name="settings_owncloud_box_password">Mahali Box Password:</string>
+    <string name="settings_button_clear_local_files">Clear Local Files</string>
+    <string name="settings_button_clear_downloads">Clear Downloaded File List</string>
+    <string name="settings_button_clear_uploads">Clear Uploaded File List</string>
+
+    <!-- Strings for shared preferences -->
+    <string name="shared_preferences_key">mahali_shared_prefs</string>
+    <string name="shared_preferences_dropbbox_dir">mahali_prefs_dropbox_dir</string>
+
+    <string name="dropbox_target_directory_default">/mahali-data/nh/app-phone</string>
+
+    <string name="text_about">The Mahali Space Weather Project\n\nhttp://mahali.mit.edu\n\nPrincipal Invesgiator:\n\tDr. Victor Pankratius\n\tMassachusetts Institute of Technology\n\tHaystack Observatory\n\tWestford, MA, USA\n\tPhone: (781) 981-5400\n\nMahali Data Relay App: This app transfers data from multi-frequency GPS sensors deployed at various locations to an Internet Dropbox location. The app is using your donated WiFi and/or your cell data plan to make the data available to scientists who study the earth\s ionosphere and its dynamic changes. For more details, see link above or contact the principal investigator.\n\nApp programming: David Mascharka</string>
+</resources>

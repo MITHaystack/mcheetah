@@ -1,0 +1,47 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.mit.haystack.mcheetah">
+
+    <!-- Read data files from the SD card, download files to SD card -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- For monitoring WiFi connections -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <!-- For uploading data files -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- For getting a GPS position, if needed -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <!-- The main activity, which is the entry point of the application -->
+        <activity
+            android:name="edu.mit.haystack.example.mcheetah.ExampleActivity"
+            android:label="@string/app_name" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <!-- The activity that displays the data plot -->
+        <activity
+            android:name="edu.mit.haystack.example.mcheetah.ExampleDataViewActivity"
+            android:label="@string/app_name" />
+
+
+    </application>
+
+</manifest>

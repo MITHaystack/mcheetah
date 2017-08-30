@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_dropbox_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/settings_dropbox_username"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/text_dropbox_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_dropbox_user"
+        android:layout_toRightOf="@id/tv_dropbox_user"
+        android:layout_toEndOf="@id/tv_dropbox_user"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="16sp"
+        android:inputType="textNoSuggestions" />
+
+    <TextView
+        android:id="@+id/tv_dropbox_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/settings_dropbox_password"
+        android:layout_below="@id/tv_dropbox_user"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/text_dropbox_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_dropbox_pass"
+        android:layout_toRightOf="@id/tv_dropbox_pass"
+        android:layout_toEndOf="@id/tv_dropbox_pass"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="16sp"
+        android:inputType="textVisiblePassword" />
+
+    <TextView
+        android:id="@+id/tv_dropbox_target_dir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_dropbox_pass"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:text="@string/settings_dropbox_target_directory" />
+
+    <EditText
+        android:id="@+id/text_dropbox_target_directory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_dropbox_target_dir"
+        android:layout_toRightOf="@id/tv_dropbox_target_dir"
+        android:layout_toEndOf="@id/tv_dropbox_target_dir"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="16sp"
+        android:inputType="textNoSuggestions" />
+
+    <TextView
+        android:id="@+id/tv_owncloud_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_dropbox_target_dir"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:text="@string/settings_owncloud_box_username" />
+
+    <EditText
+        android:id="@+id/text_owncloud_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_owncloud_username"
+        android:layout_toRightOf="@id/tv_owncloud_username"
+        android:layout_toEndOf="@id/tv_owncloud_username"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="16sp"
+        android:inputType="textNoSuggestions" />
+
+    <TextView
+        android:id="@+id/tv_owncloud_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_owncloud_username"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:text="@string/settings_owncloud_box_password" />
+
+    <EditText
+        android:id="@+id/text_owncloud_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_owncloud_password"
+        android:layout_toRightOf="@id/tv_owncloud_password"
+        android:layout_toEndOf="@id/tv_owncloud_password"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="16sp"
+        android:inputType="textVisiblePassword" />
+
+    <Button
+        android:id="@+id/button_clear_local_files"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_button_clear_local_files"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:id="@+id/button_clear_downloads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_button_clear_downloads"
+        android:layout_above="@id/button_clear_local_files"/>
+
+    <Button
+        android:id="@+id/button_clear_uploads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_button_clear_uploads"
+        android:layout_above="@id/button_clear_downloads" />
+
+</RelativeLayout>

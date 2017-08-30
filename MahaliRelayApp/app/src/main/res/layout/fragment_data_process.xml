@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/data_plot" >
+
+    <!-- Initially contains only a view for plotting in -->
+    <!-- If more functionality and interactivity is required, add elements here or specify a different xml layout -->
+
+    <!-- NOTE: if more functionality is desired (e.g. adding a slider for adjusting bias like Mahali, then
+          you MUST have a view for plotting (LinearLayout, RelativeLayout, FrameLayout, etc) and it MUST
+          be named data_plot. Then rename the parent layout in this class or remove its id -->
+
+</LinearLayout>

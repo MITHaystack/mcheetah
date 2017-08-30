@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SkipSelectionDialogFragment strings -->
+    <string name="point_skip_dialog_text_skip_amount">Use every point</string>
+    <string name="point_skip_dialog_title">Point Density</string>
+
+    <!-- Outlier selection strings -->
+    <string name="outlier_selection_dialog_title">Select Outlier Values</string>
+    <string name="outlier_minimum">Remove values less than:</string>
+    <string name="outlier_maximum">Remove values greater than:</string>
+</resources>
