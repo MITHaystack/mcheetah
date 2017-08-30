@@ -1,11 +1,11 @@
 # MCheetah
 - Create data processing pipelines on mobile phones
 - Easily connect your data I/O to cloud environments like Dropbox
-- Skip detailed Android programming; just connect your pipeline stages using producer-consumer patterns.
+- Skip detailed Android programming; just connect your pipeline stages using producer-consumer patterns
 - Create data processing fragment abstractions using 'Parsers', 'Computers', and 'Renderers'
 - Leverage GPU-optimized plotting with OpenGL for large data sets
-- Enjoy auto-tuning of threads that optimizes speed on different mobile architectures
-- Enable approximate computing to optimize your app for speed, accuracy, or energy consumption. 
+- Enjoy auto-tuning of threads to optimize speed on a variety of mobile architectures
+- Enable approximate computing to optimize apps for speed, accuracy, or energy consumption
 - Easily reuse your critical code for desktop Java applications
 - Open spource (MIT license)
 
