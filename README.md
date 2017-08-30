@@ -31,5 +31,5 @@ App examples:
 
 | Android App Code |  | 
 | ------------- | ------------- |
-| [MahaliRelayApp](https://github.com/MITHaystack/mcheetah/tree/master/MahaliRelayApp)| <img alt="Screenshot" src="https://github.com/MITHaystack/mcheetah/blob/master/docs/images/screenshot_MahaliRelayApp.png"/> |
-| [MagnetometerApp](https://github.com/MITHaystack/mcheetah/tree/master/MagnetometerApp)| x |
+| [MahaliRelayApp](https://github.com/MITHaystack/mcheetah/tree/master/MahaliRelayApp)| <sup>Purpose: Monitor Earth's ionosphere through GPS. <br>Features: Data acquisition from multifrequency GPS receivers, multithreaded RINEX file parsing on phone, bias removal, computation of ionospheric Total Electron Content (TEC), line of sight to vertical TEC tranformation through NASA satellite ephemeris access, visualization, upload to Dropbox. </sup><img alt="Screenshot" src="https://github.com/MITHaystack/mcheetah/blob/master/docs/images/screenshot_MahaliRelayApp.png"/> |
+| [MagnetometerApp](https://github.com/MITHaystack/mcheetah/tree/master/MagnetometerApp)| <sup>Purpose: App turning a phone into a mobile magnetometer.<br>Features: Record data in nT, upload data to Dropbox.</sup> |
