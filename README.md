@@ -25,9 +25,9 @@ Project developers: [David Mascharka (MIT Lincoln Laboratory)](https://www.linke
 We acknowledge support from NSF AGS-1343967.
 
 ## Examples
-We created MCheetah as part of our NSF-sponsored Mahali project [http://mahali.mit.edu](http://mahali.mit.edu)
+MCheetah was created as a reusable mobile framework for the NSF-sponsored Mahali project [http://mahali.mit.edu](http://mahali.mit.edu)
 
-App examples: 
+App examples using MCheetah: 
 
 | Android App Code |  | 
 | ------------- | ------------- |
