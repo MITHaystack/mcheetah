@@ -11,7 +11,7 @@
 
 ### Documentation
 
-- Code documentation (JavaDoc): [/docs/index.html](http://htmlpreview.github.io/?https://github.com/MITHaystack/mcheetah/blob/master/docs/index.html)
+- Code documentation (JavaDoc): [/docs/index.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/MITHaystack/mcheetah/master/docs/overview-summary.html)
 
 
 ### Contributors
