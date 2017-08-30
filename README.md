@@ -17,7 +17,7 @@
 ### Contributors
 
 Project lead: [Victor Pankratius (MIT)](http://www.victorpankratius.com)<br>
-Project developers: [David Mascharka (MIT Lincoln Laboratory)](https://www.linkedin.com/in/david-mascharka-20999269)
+Project developer: [David Mascharka (MIT Lincoln Laboratory)](https://www.linkedin.com/in/david-mascharka-20999269)
 
   
 ### Acknowledgements
