@@ -17,7 +17,7 @@
 ### Contributors
 
 Project lead: [Victor Pankratius (MIT)](http://www.victorpankratius.com)<br>
-Project developer: [David Mascharka (MIT Lincoln Laboratory)](https://www.linkedin.com/in/david-mascharka-20999269)
+Project developer: [David Mascharka (MIT Lincoln Laboratory)](https://davidmascharka.com)<b><sup>[*](#note)</sup></b>
 
   
 ### Acknowledgements
@@ -33,3 +33,5 @@ App examples using MCheetah:
 | ------------- | ------------- |
 | [MahaliRelayApp](https://github.com/MITHaystack/mcheetah/tree/master/MahaliRelayApp)| <sup>Purpose: Monitor Earth's ionosphere through GPS. <br>Features: Data acquisition from multifrequency GPS receivers, multithreaded RINEX file parsing on phone, bias removal, computation of ionospheric Total Electron Content (TEC), line of sight to vertical TEC tranformation through NASA satellite ephemeris access, visualization, upload to Dropbox. </sup><img alt="Screenshot" src="https://github.com/MITHaystack/mcheetah/blob/master/docs/images/screenshot_MahaliRelayApp.png"/> |
 | [MagnetometerApp](https://github.com/MITHaystack/mcheetah/tree/master/MagnetometerApp)| <sup>Purpose: App turning a phone into a mobile magnetometer.<br>Features: Record data in nT, upload data to Dropbox.</sup> |
+
+<a name="note"><sup>*</sup></a>: David is currently an MIT Lincoln Laboratory employee. No Laboratory funding or resources were used to produce the results here.
