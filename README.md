@@ -9,6 +9,10 @@
 - Easily reuse your critical code for desktop Java applications
 - Open spource (MIT license)
 
+<p align="center">
+  <img alt="MCheetah Overview" src="https://github.com/MITHaystack/mcheetah/blob/master/docs/images/mcheetah_overviewdiag.png" width="860"/>
+</p>
+
 ### Documentation
 
 - Code documentation (JavaDoc): [/docs/index.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/MITHaystack/mcheetah/master/docs/overview-summary.html)
