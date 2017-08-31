@@ -22,7 +22,7 @@ Project developer: [David Mascharka (MIT Lincoln Laboratory)](https://davidmasch
   
 ### Acknowledgements
 
-We acknowledge support from NSF AGS-1343967.
+We acknowledge support from NSF AGS-1343967 for the Mahali project and NSF AST-1156504 for the Research Experience for Undergraduates (REU) program.
 
 ## Examples
 MCheetah was created as a reusable mobile framework for the NSF-sponsored Mahali project [http://mahali.mit.edu](http://mahali.mit.edu)
@@ -34,4 +34,4 @@ App examples using MCheetah:
 | [MahaliRelayApp [Code]](https://github.com/MITHaystack/mcheetah/tree/master/MahaliRelayApp)| <ul><li><sup><b>Purpose:</b> Monitor Earth's ionosphere through GPS. </sup></li> <li><sup><b>Features:</b> Data acquisition from multifrequency GPS receivers, multithreaded RINEX file parsing on phone, bias removal, computation of ionospheric Total Electron Content (TEC), line of sight to vertical TEC tranformation through NASA satellite ephemeris access, visualization, upload to Dropbox. </sup></li> <li>[AGU2015 Abstract](https://github.com/MITHaystack/mcheetah/blob/master/presentations/MahaliRelayApp-AGU-2015.pdf)</li><br> <img alt="Screenshot" src="https://github.com/MITHaystack/mcheetah/blob/master/docs/images/screenshot_MahaliRelayApp.png"/> |
 | [MagnetometerApp [Code]](https://github.com/MITHaystack/mcheetah/tree/master/MagnetometerApp)| <li><sup><b>Purpose:</b> App turning a phone into a mobile magnetometer.</sup></li><li><sup><b>Features:</b> Record data in nT, upload data to Dropbox.</sup></li> |
 
-<a name="note"><sup>*</sup></a>: David is currently an MIT Lincoln Laboratory employee. No Laboratory funding or resources were used to produce the results here.
+<a name="note"><sup>*</sup></a>: David is currently an MIT Lincoln Laboratory employee. No Laboratory funding or resources were used to produce the results here. This work was completed while under the NSF REU program at MIT Haystack Observatory.
