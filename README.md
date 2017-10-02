@@ -1,7 +1,7 @@
 <p align="left">
   <img alt="MCheetah" src="https://github.com/MITHaystack/mcheetah/blob/master/docs/images/mcheetah_logo360.png"/>
 </p>
-
+<hr>
 - Create data processing pipelines on Android mobile phones
 - Easily connect your data I/O to cloud environments like Dropbox
 - Skip detailed Android programming; just connect your pipeline stages using producer-consumer patterns
